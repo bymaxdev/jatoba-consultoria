@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --jac-navy-950: #060d18;
+  --jac-navy-900: #0a1628;
+  --jac-navy-800: #0f1f38;
+  --jac-silver-100: #e8ecf2;
+  --jac-silver-300: #b8c2d4;
+  --jac-silver-500: #8b97ad;
+  --jac-blue-accent: #1c4d7a;
+  --jac-blue-bright: #2a6ead;
+}
+
+@theme inline {
+  --font-sans: var(--font-montserrat);
+
+  --color-jac-navy-950: var(--jac-navy-950);
+  --color-jac-navy-900: var(--jac-navy-900);
+  --color-jac-navy-800: var(--jac-navy-800);
+  --color-jac-silver-100: var(--jac-silver-100);
+  --color-jac-silver-300: var(--jac-silver-300);
+  --color-jac-silver-500: var(--jac-silver-500);
+  --color-jac-blue-accent: var(--jac-blue-accent);
+  --color-jac-blue-bright: var(--jac-blue-bright);
+
+  --color-background: var(--jac-navy-950);
+  --color-foreground: var(--jac-silver-100);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(
+      ellipse 120% 80% at 50% -30%,
+      var(--jac-navy-800) 0%,
+      var(--jac-navy-950) 55%
+    ),
+    var(--jac-navy-950);
+  color: var(--jac-silver-100);
+}
+
+::selection {
+  background: rgb(42 110 173 / 0.35);
+  color: var(--jac-silver-100);
+}

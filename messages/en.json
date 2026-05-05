@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Jatoba Consulting and Technology | Oil, gas & industry consulting",
+    "description": "Practical solutions in technology and operational improvement: maintenance, KPIs, data, asset integrity, and industrial performance."
+  },
+  "nav": {
+    "services": "Solutions",
+    "why": "Why Jatoba",
+    "sectors": "Sectors",
+    "contact": "Contact",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "eyebrow": "Consulting and technology",
+    "title": "From field operations to management visibility",
+    "subtitle": "We build practical solutions that help organisations gain control, visibility, and performance in critical areas — with a sharp focus on efficiency, safety, and better-informed decisions.",
+    "ctaServices": "Explore solutions",
+    "ctaContact": "Talk to Jatoba"
+  },
+  "solutions": {
+    "id": "servicos",
+    "title": "Technology & improvement solutions",
+    "intro": "We bridge operational reality and management visibility — improving efficiency, cutting losses, and supporting stronger decisions.",
+    "groups": [
+      {
+        "title": "Operations & maintenance",
+        "items": [
+          "Maintenance planning and execution control",
+          "Equipment performance monitoring",
+          "Non‑productive time tracking and analysis",
+          "Maintenance, reliability, and performance lens"
+        ]
+      },
+      {
+        "title": "Data, visibility & decision-making",
+        "items": [
+          "Data acquisition and transmission",
+          "Operational KPI dashboards",
+          "Management reporting and decision-support tools",
+          "Process standardisation and control systems"
+        ]
+      },
+      {
+        "title": "Assets, materials & talent",
+        "items": [
+          "Inventory and spare-parts management",
+          "Asset integrity and inspection tracking",
+          "Provision of specialised manpower"
+        ]
+      }
+    ]
+  },
+  "whyUs": {
+    "id": "por-que-jatoba",
+    "title": "Why clients work with us",
+    "intro": "Clients engage us because we combine field experience, leadership-level operational judgment, and technical delivery anchored in business outcomes.",
+    "items": [
+      "Real field experience",
+      "Operational insight at leadership level",
+      "Strong technical credibility",
+      "Safety-first mindset",
+      "Maintenance and reliability perspective",
+      "Process-improvement capability",
+      "Practical use of technology",
+      "Business performance focus"
+    ],
+    "closing": "We understand what happens in the field, what management needs to see, and what must improve to sustain results."
+  },
+  "sectors": {
+    "id": "setores",
+    "title": "Sectors we serve",
+    "items": [
+      {
+        "title": "Oil & gas",
+        "description": "Support for onshore and offshore operations with emphasis on reliability, uptime, and operational indicators."
+      },
+      {
+        "title": "Process industries",
+        "description": "Maintenance, asset integrity, and data governance for plants that cannot afford unplanned downtime."
+      },
+      {
+        "title": "Energy & infrastructure",
+        "description": "Performance models, standardisation, and reporting for operations and maintenance teams."
+      }
+    ]
+  },
+  "contact": {
+    "id": "contato",
+    "title": "Contact",
+    "intro": "Send a message and we’ll get back to you shortly.",
+    "emailNote": "You can also e-mail the address your team provides at go-live.",
+    "ctaOpen": "Contact us",
+    "ctaClose": "Close form",
+    "fields": {
+      "name": "Name",
+      "company": "Company",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "website": "Website"
+    },
+    "placeholders": {
+      "name": "Your full name",
+      "company": "Company name",
+      "email": "you@company.com",
+      "phone": "+44 … / +55 …",
+      "message": "How can we help?"
+    },
+    "submit": "Send message",
+    "sending": "Sending…",
+    "success": "Message sent. Thank you.",
+    "error": "Something went wrong. Please try again or use another channel.",
+    "validation": {
+      "name": "Please enter your name.",
+      "emailInvalid": "Enter a valid email address.",
+      "messageShort": "Please add more detail to your message."
+    },
+    "honeypotLabel": "Leave blank"
+  },
+  "footer": {
+    "rights": "Jatoba Consulting and Technology — All rights reserved.",
+    "privacy": "Privacy policy",
+    "terms": "Terms of use",
+    "tagline": "We connect operations, data, and decisions.",
+    "legalNote": "Legal pages are baseline templates; legal review is recommended before public launch."
+  },
+  "privacyPage": {
+    "title": "Privacy policy",
+    "updated": "Last updated: May 2026.",
+    "p1": "This policy describes how the Jatoba Consulting and Technology (“Jatoba”) institutional website may process personal information provided by visitors, in line with applicable law and sound practice.",
+    "p2": "When you use contact forms or e-mail channels, you may provide details such as your name, company, phone number, and e-mail address. We use this information solely to respond to enquiries and pursue legitimate business discussions about Jatoba services.",
+    "p3": "Jatoba applies reasonable safeguards to protect information from unauthorised access or misuse. We do not sell personal data to third parties. Technology providers involved in hosting or transactional mail may receive strictly limited technical access under appropriate contracts and confidentiality duties.",
+    "p4": "Where applicable, you may ask to correct or delete contact details submitted via this website by reaching out through the Contact section.",
+    "p5": "Cookies and similar technologies may be used only for site functionality or aggregated audience analytics; further detail can be reflected here once the final technical setup is confirmed."
+  },
+  "termsPage": {
+    "title": "Terms of use",
+    "updated": "Last updated: May 2026.",
+    "p1": "This website is informational and describes Jatoba Consulting and Technology and its capabilities. Materials here do not create contractual obligations or specific outcome guarantees unless formalised through a signed proposal or agreement.",
+    "p2": "Visitors agree to use the site lawfully and must not interfere with security, availability, or integrity of systems.",
+    "p3": "Brands, logos, and collateral are legally protected; reproduction without authorisation is prohibited.",
+    "p4": "Links to third-party sites, if any, are provided for convenience; Jatoba is not responsible for their content or policies.",
+    "p5": "These terms may be updated from time to time; the version published on this page prevails."
+  }
+}

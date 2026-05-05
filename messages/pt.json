@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Jatoba Consulting and Technology | Consultoria em óleo, gás e indústria",
+    "description": "Soluções práticas em tecnologia e melhoria operacional: manutenção, KPIs, dados, integridade de ativos e desempenho industrial."
+  },
+  "nav": {
+    "services": "Soluções",
+    "why": "Por que a Jatoba",
+    "sectors": "Setores",
+    "contact": "Contato",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
+  },
+  "hero": {
+    "eyebrow": "Consultoria e tecnologia",
+    "title": "Da operação de campo à visibilidade da gestão",
+    "subtitle": "Desenvolvemos soluções práticas para ajudar empresas a ganhar controle, visibilidade e performance em áreas críticas — com foco em eficiência, segurança e decisões melhor informadas.",
+    "ctaServices": "Conhecer soluções",
+    "ctaContact": "Falar com a Jatoba"
+  },
+  "solutions": {
+    "id": "servicos",
+    "title": "Soluções de tecnologia e melhoria",
+    "intro": "Nosso objetivo é conectar a realidade operacional à visibilidade gerencial, criando soluções que aumentem a eficiência, reduzam perdas e apoiem melhores decisões.",
+    "groups": [
+      {
+        "title": "Operação e manutenção",
+        "items": [
+          "Planejamento de manutenção e controle da execução",
+          "Monitoramento de performance de equipamentos",
+          "Rastreamento e análise de tempos não produtivos",
+          "Visão de manutenção, confiabilidade e performance"
+        ]
+      },
+      {
+        "title": "Dados, visibilidade e decisão",
+        "items": [
+          "Aquisição e transmissão de dados",
+          "Dashboards de KPIs operacionais",
+          "Relatórios gerenciais e ferramentas de apoio à decisão",
+          "Padronização de processos e sistemas de controle"
+        ]
+      },
+      {
+        "title": "Ativos, suprimentos e pessoas",
+        "items": [
+          "Gestão de inventário e sobressalentes",
+          "Integridade de ativos e acompanhamento de inspeções",
+          "Fornecimento de mão de obra especializada"
+        ]
+      }
+    ]
+  },
+  "whyUs": {
+    "id": "por-que-jatoba",
+    "title": "Por que os clientes nos escolhem",
+    "intro": "Os clientes trabalham conosco porque combinamos experiência de campo, visão de liderança e entrega técnica com foco em resultado.",
+    "items": [
+      "Experiência real de campo",
+      "Entendimento operacional em nível de liderança",
+      "Credibilidade técnica",
+      "Forte mentalidade de segurança",
+      "Visão de manutenção e confiabilidade",
+      "Capacidade de melhoria de processos",
+      "Aplicação prática de tecnologia",
+      "Foco na performance do negócio"
+    ],
+    "closing": "Entendemos o que acontece no campo, o que a gestão precisa enxergar e o que as empresas precisam melhorar para alcançar resultados sustentáveis."
+  },
+  "sectors": {
+    "id": "setores",
+    "title": "Setores que atendemos",
+    "items": [
+      {
+        "title": "Óleo e gás",
+        "description": "Apoio a operações onshore e offshore, com foco em confiabilidade, disponibilidade e indicadores operacionais."
+      },
+      {
+        "title": "Indústrias de processo",
+        "description": "Manutenção, integridade de ativos e governança de dados para plantas que não podem parar."
+      },
+      {
+        "title": "Energia e infraestrutura",
+        "description": "Modelos de performance, padronização e reporting para times de operação e manutenção."
+      }
+    ]
+  },
+  "contact": {
+    "id": "contato",
+    "title": "Contato",
+    "intro": "Envie uma mensagem e retornaremos o mais breve possível.",
+    "emailNote": "Ou escreva diretamente para o e-mail que sua equipe indicar após o go-live.",
+    "ctaOpen": "Fale conosco",
+    "ctaClose": "Fechar formulário",
+    "fields": {
+      "name": "Nome",
+      "company": "Empresa",
+      "email": "E-mail",
+      "phone": "Telefone",
+      "message": "Mensagem",
+      "website": "Website"
+    },
+    "placeholders": {
+      "name": "Seu nome completo",
+      "company": "Nome da empresa",
+      "email": "voce@empresa.com",
+      "phone": "+55 ...",
+      "message": "Como podemos ajudar?"
+    },
+    "submit": "Enviar mensagem",
+    "sending": "Enviando...",
+    "success": "Mensagem enviada. Obrigado pelo contato.",
+    "error": "Não foi possível enviar. Tente novamente ou use outro canal.",
+    "validation": {
+      "name": "Informe seu nome.",
+      "emailInvalid": "Informe um e-mail válido.",
+      "messageShort": "Escreva uma mensagem mais detalhada."
+    },
+    "honeypotLabel": "Não preencher"
+  },
+  "footer": {
+    "rights": "Jatoba Consulting and Technology — Todos os direitos reservados.",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de uso",
+    "tagline": "Conectamos operação, dados e decisão.",
+    "legalNote": "Textos legais são modelos-base; recomenda-se revisão jurídica antes do uso público."
+  },
+  "privacyPage": {
+    "title": "Política de privacidade",
+    "updated": "Última atualização: maio de 2026.",
+    "p1": "Esta página descreve, em linhas gerais, como o site institucional da Jatoba Consulting and Technology (“Jatoba”) pode tratar dados pessoais fornecidos por visitantes, em conformidade com boas práticas e legislação aplicável.",
+    "p2": "Ao utilizar formulários ou enviar e-mails através deste site, você pode fornecer dados como nome, empresa, telefone e endereço de e-mail. Essas informações são utilizadas apenas para responder às solicitações de contato e dar seguimento a relacionamentos comerciais relacionados aos serviços da Jatoba.",
+    "p3": "A Jatoba adota medidas razoáveis de segurança para proteger as informações contra acesso não autorizado ou uso indevido. Os dados não serão vendidos a terceiros. Eventuais prestadores de serviço tecnológicos (por exemplo, hospedagem ou envio de e-mail transacional) podem ter acesso técnico limitado, mediante contratos e obrigações de confidencialidade compatíveis com a legislação.",
+    "p4": "Visitantes podem solicitar correção ou exclusão de dados de contato enviados por meio deste site, quando aplicável, entrando em contato pelos canais indicados na seção Contato.",
+    "p5": "Cookies e tecnologias similares podem ser usados apenas para funcionamento técnico do site ou medições agregadas de audiência; detalhes adicionais podem ser atualizados nesta página conforme a implementação técnica final."
+  },
+  "termsPage": {
+    "title": "Termos de uso",
+    "updated": "Última atualização: maio de 2026.",
+    "p1": "Este site tem caráter informativo sobre a Jatoba Consulting and Technology e seus serviços. Os conteúdos não constituem obrigação contratual nem garantia específica de resultados até que formalizados em proposta ou contrato assinado.",
+    "p2": "Visitantes devem usar o site de forma lícita, sem tentar interferir na segurança, na disponibilidade ou na integridade dos sistemas.",
+    "p3": "Marcas, logotipos e materiais disponibilizados estão protegidos por lei; a reprodução não autorizada é proibida.",
+    "p4": "Links para sites de terceiros, se existirem, são apenas conveniência; a Jatoba não é responsável pelo conteúdo ou pelas políticas desses sites.",
+    "p5": "Esses termos podem ser atualizados periodicamente; a versão vigente será a publicada nesta página."
+  }
+}
