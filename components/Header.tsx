@@ -24,7 +24,7 @@ export function Header() {
       <div className="mx-auto my-4 flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex shrink-0 items-center gap-2" prefetch>
           <Image
-            src="/logo horizontal.png"
+            src="/logo.png"
             alt="Jatoba Consulting and Technology"
             width={230}
             height={100}
