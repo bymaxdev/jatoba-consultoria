@@ -1,3 +1,4 @@
+import { AboutSection } from "@/components/AboutSection";
 import { ContactSection } from "@/components/ContactSection";
 import { Hero } from "@/components/Hero";
 import { Sectors } from "@/components/Sectors";
@@ -11,6 +12,7 @@ export default function HomePage() {
       <Solutions />
       <WhyUs />
       <Sectors />
+      <AboutSection />
       <ContactSection />
     </main>
   );

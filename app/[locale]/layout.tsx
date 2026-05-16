@@ -94,7 +94,10 @@ export default async function LocaleLayout({
       className={`${montserrat.variable} scroll-smooth antialiased`}
       suppressHydrationWarning
     >
-      <body className="flex min-h-full flex-col bg-jac-navy-950 font-sans text-jac-silver-100">
+      <body
+        className="flex min-h-full flex-col bg-jac-navy-950 font-sans text-jac-silver-100"
+        suppressHydrationWarning
+      >
         <NextIntlClientProvider messages={messages}>
           <ContactFormProvider>
             <Header />

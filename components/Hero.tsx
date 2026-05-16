@@ -35,7 +35,10 @@ export async function Hero() {
           {t("title")}
         </h1>
         <p className="mt-8 max-w-2xl text-lg leading-relaxed text-jac-silver-100/95 md:text-xl">
-          {t("subtitle")}
+          {t("subtitle1")}
+        </p>
+        <p className="mt-4 max-w-2xl text-lg leading-relaxed text-jac-silver-100/95 md:text-xl">
+          {t("subtitle2")}
         </p>
         <div className="mt-12 flex flex-col gap-4 sm:flex-row sm:gap-6">
           <Link

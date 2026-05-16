@@ -5,48 +5,51 @@
   },
   "nav": {
     "services": "Soluções",
-    "why": "Por que a Jatoba",
-    "sectors": "Setores",
+    "why": "Por que nós",
+    "industries": "Indústrias e área de atuação",
+    "about": "Sobre a empresa",
     "contact": "Contato",
     "openMenu": "Abrir menu",
     "closeMenu": "Fechar menu"
   },
   "hero": {
     "eyebrow": "Consultoria e tecnologia",
-    "title": "Da operação de campo à visibilidade da gestão",
-    "subtitle": "Desenvolvemos soluções práticas para ajudar empresas a ganhar controle, visibilidade e performance em áreas críticas — com foco em eficiência, segurança e decisões melhor informadas.",
+    "title": "Da experiência operacional à transformação dos processos",
+    "subtitle1": "Unimos experiência real de campo, engenharia e tecnologia para desenvolver soluções que aumentam controle, eficiência e confiabilidade operacional.",
+    "subtitle2": "Atuamos na otimização de processos, gestão de ativos e suporte à tomada de decisão em operações críticas.",
     "ctaServices": "Conhecer soluções",
     "ctaContact": "Falar com a Jatoba"
   },
   "solutions": {
     "id": "servicos",
-    "title": "Soluções de tecnologia e melhoria",
-    "intro": "Nosso objetivo é conectar a realidade operacional à visibilidade gerencial, criando soluções que aumentem a eficiência, reduzam perdas e apoiem melhores decisões.",
+    "title": "Soluções de tecnologia e performance operacional",
+    "intro": "Transformamos experiência operacional em soluções inteligentes para aumentar a eficiência, reduzir perdas e apoiar decisões estratégicas com mais precisão, controle e visibilidade.",
     "groups": [
       {
-        "title": "Operação e manutenção",
+        "title": "Operação, manutenção e confiabilidade",
         "items": [
-          "Planejamento de manutenção e controle da execução",
-          "Monitoramento de performance de equipamentos",
-          "Rastreamento e análise de tempos não produtivos",
-          "Visão de manutenção, confiabilidade e performance"
+          "Planejamento e gestão da manutenção operacional",
+          "Monitoramento de performance e confiabilidade de equipamentos",
+          "Análise e redução de tempos não produtivos (NPT)",
+          "Controle operacional voltado para eficiência, disponibilidade e segurança"
         ]
       },
       {
-        "title": "Dados, visibilidade e decisão",
+        "title": "Dados, visibilidade e tomada de decisão",
         "items": [
-          "Aquisição e transmissão de dados",
-          "Dashboards de KPIs operacionais",
+          "Aquisição, integração e transmissão de dados operacionais",
+          "Dashboards e indicadores estratégicos de performance (KPIs)",
           "Relatórios gerenciais e ferramentas de apoio à decisão",
-          "Padronização de processos e sistemas de controle"
+          "Padronização de processos, controles e fluxos operacionais"
         ]
       },
       {
         "title": "Ativos, suprimentos e pessoas",
         "items": [
-          "Gestão de inventário e sobressalentes",
+          "Gestão de inventário, materiais e sobressalentes",
           "Integridade de ativos e acompanhamento de inspeções",
-          "Fornecimento de mão de obra especializada"
+          "Controle e rastreabilidade operacional de equipamentos",
+          "Fornecimento de mão de obra especializada e suporte técnico operacional"
         ]
       }
     ]
@@ -54,18 +57,21 @@
   "whyUs": {
     "id": "por-que-jatoba",
     "title": "Por que os clientes nos escolhem",
-    "intro": "Os clientes trabalham conosco porque combinamos experiência de campo, visão de liderança e entrega técnica com foco em resultado.",
+    "intro1": "Transformamos experiência operacional de ambientes críticos em soluções práticas de tecnologia, manutenção e performance.",
+    "intro2": "Atuamos onde tempo perdido significa prejuízo direto — levando visibilidade, controle e eficiência para operações industriais.",
+    "deliverHeading": "O que entregamos",
     "items": [
-      "Experiência real de campo",
-      "Entendimento operacional em nível de liderança",
-      "Credibilidade técnica",
-      "Forte mentalidade de segurança",
-      "Visão de manutenção e confiabilidade",
-      "Capacidade de melhoria de processos",
-      "Aplicação prática de tecnologia",
-      "Foco na performance do negócio"
+      "Experiência consolidada no campo",
+      "Disciplina operacional e gestão baseada em KPIs",
+      "Tecnologia aplicada para dar visibilidade a ativos e processos",
+      "Resposta rápida e foco em continuidade operacional",
+      "Manutenção planejada com execução e acompanhamento real",
+      "Dados de campo transformados em informação para decisão",
+      "Padronização de processos e redução da dependência de pessoas-chave",
+      "Cultura de segurança aplicada à rotina operacional",
+      "Soluções simples, úteis e orientadas para resultado"
     ],
-    "closing": "Entendemos o que acontece no campo, o que a gestão precisa enxergar e o que as empresas precisam melhorar para alcançar resultados sustentáveis."
+    "closing": "Entendemos o que acontece na operação, o que a liderança precisa enxergar e o que deve ser melhorado para sustentar resultados em operações com ativos críticos."
   },
   "sectors": {
     "id": "setores",
@@ -73,16 +79,26 @@
     "items": [
       {
         "title": "Óleo e gás",
-        "description": "Apoio a operações onshore e offshore, com foco em confiabilidade, disponibilidade e indicadores operacionais."
+        "description": "Nossa origem está nas operações de perfuração offshore, atuando em ambientes onde segurança, confiabilidade e eficiência operacional são críticas. Foi nesse cenário que desenvolvemos a metodologia que hoje aplicamos em outros setores industriais."
       },
       {
         "title": "Indústrias de processo",
-        "description": "Manutenção, integridade de ativos e governança de dados para plantas que não podem parar."
+        "description": "Levamos a disciplina operacional da perfuração offshore para plantas industriais que não podem parar. Atuamos na redução de tempo não produtivo (NPT), integridade de ativos, manutenção e visibilidade operacional, conectando processos e equipamentos que hoje operam sem dados estruturados."
       },
       {
         "title": "Energia e infraestrutura",
-        "description": "Modelos de performance, padronização e reporting para times de operação e manutenção."
+        "description": "Aplicamos tecnologia e gestão operacional em ambientes com ativos distribuídos, manutenção reativa e baixa visibilidade de campo. Integramos transmissão de dados, dashboards e indicadores operacionais para aumentar controle, confiabilidade e capacidade de decisão."
       }
+    ]
+  },
+  "about": {
+    "id": "about",
+    "title": "Sobre a empresa",
+    "paragraphs": [
+      "A Jatoba Consulting & Technology nasceu da experiência prática do seu fundador na indústria de perfuração offshore, atuando por mais de duas décadas em operações críticas, gestão operacional, manutenção, confiabilidade e melhoria contínua de processos.",
+      "A empresa reúne profissionais com experiência em automação, eletrônica, transmissão de dados em tempo real e desenvolvimento de soluções tecnológicas aplicadas à operação industrial. Nosso foco é transformar dados operacionais em visibilidade, controle e suporte à tomada de decisão.",
+      "A metodologia da Jatoba Consulting & Technology foi construída em ambientes onde segurança, disponibilidade e eficiência operacional são essenciais. Levamos essa disciplina operacional para indústrias que dependem de ativos críticos e ainda possuem processos com baixa integração de dados e pouca visibilidade de campo.",
+      "Mais do que consultoria, entregamos integração entre operação, tecnologia e gestão — conectando pessoas, processos e equipamentos para aumentar confiabilidade, reduzir perdas e melhorar a performance operacional."
     ]
   },
   "contact": {

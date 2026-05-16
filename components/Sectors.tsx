@@ -1,5 +1,4 @@
 import { getTranslations } from "next-intl/server";
-
 import { RevealOnScroll } from "@/components/RevealOnScroll";
 
 type Sector = {
@@ -18,7 +17,9 @@ export async function Sectors() {
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <RevealOnScroll>
-          <h2 className="font-semibold text-3xl tracking-tight text-white md:text-4xl">{t("title")}</h2>
+          <h2 className="font-semibold text-3xl tracking-tight text-white md:text-4xl">
+            {t("title")}
+          </h2>
         </RevealOnScroll>
         <div className="mt-14 grid gap-8 lg:grid-cols-3">
           {items.map((sector, i) => (

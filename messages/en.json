@@ -5,67 +5,73 @@
   },
   "nav": {
     "services": "Solutions",
-    "why": "Why Jatoba",
-    "sectors": "Sectors",
+    "why": "Why us",
+    "industries": "Industries & focus areas",
+    "about": "About the company",
     "contact": "Contact",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
   "hero": {
     "eyebrow": "Consulting and technology",
-    "title": "From field operations to management visibility",
-    "subtitle": "We build practical solutions that help organisations gain control, visibility, and performance in critical areas — with a sharp focus on efficiency, safety, and better-informed decisions.",
+    "title": "From operational experience to process transformation",
+    "subtitle1": "We combine real field experience, engineering, and technology to deliver solutions that increase control, efficiency, and operational reliability.",
+    "subtitle2": "We focus on process optimisation, asset management, and decision support in critical operations.",
     "ctaServices": "Explore solutions",
     "ctaContact": "Talk to Jatoba"
   },
   "solutions": {
     "id": "servicos",
-    "title": "Technology & improvement solutions",
-    "intro": "We bridge operational reality and management visibility — improving efficiency, cutting losses, and supporting stronger decisions.",
+    "title": "Technology & operational performance solutions",
+    "intro": "We turn operational experience into smart solutions that raise efficiency, cut losses, and support strategic decisions with greater precision, control, and visibility.",
     "groups": [
       {
-        "title": "Operations & maintenance",
+        "title": "Operations, maintenance & reliability",
         "items": [
-          "Maintenance planning and execution control",
-          "Equipment performance monitoring",
-          "Non‑productive time tracking and analysis",
-          "Maintenance, reliability, and performance lens"
+          "Operational maintenance planning and management",
+          "Equipment performance and reliability monitoring",
+          "Analysis and reduction of non-productive time (NPT)",
+          "Operational control focused on efficiency, availability, and safety"
         ]
       },
       {
         "title": "Data, visibility & decision-making",
         "items": [
-          "Data acquisition and transmission",
-          "Operational KPI dashboards",
+          "Acquisition, integration, and transmission of operational data",
+          "Dashboards and strategic performance indicators (KPIs)",
           "Management reporting and decision-support tools",
-          "Process standardisation and control systems"
+          "Standardisation of processes, controls, and operational workflows"
         ]
       },
       {
-        "title": "Assets, materials & talent",
+        "title": "Assets, materials & people",
         "items": [
-          "Inventory and spare-parts management",
-          "Asset integrity and inspection tracking",
-          "Provision of specialised manpower"
+          "Inventory, materials, and spare-parts management",
+          "Asset integrity and inspection follow-up",
+          "Operational control and traceability of equipment",
+          "Specialised workforce and operational technical support"
         ]
       }
     ]
   },
   "whyUs": {
     "id": "por-que-jatoba",
-    "title": "Why clients work with us",
-    "intro": "Clients engage us because we combine field experience, leadership-level operational judgment, and technical delivery anchored in business outcomes.",
+    "title": "Why clients choose us",
+    "intro1": "We turn operational experience in critical environments into practical technology, maintenance, and performance solutions.",
+    "intro2": "We work where lost time means direct loss — bringing visibility, control, and efficiency to industrial operations.",
+    "deliverHeading": "What we deliver",
     "items": [
-      "Real field experience",
-      "Operational insight at leadership level",
-      "Strong technical credibility",
-      "Safety-first mindset",
-      "Maintenance and reliability perspective",
-      "Process-improvement capability",
-      "Practical use of technology",
-      "Business performance focus"
+      "Consolidated field experience",
+      "Operational discipline and KPI-led management",
+      "Technology applied to give visibility to assets and processes",
+      "Fast response and focus on operational continuity",
+      "Planned maintenance with real execution and follow-up",
+      "Field data turned into information for decisions",
+      "Process standardisation and reduced dependence on key individuals",
+      "Safety culture embedded in day-to-day operations",
+      "Simple, useful, outcome-oriented solutions"
     ],
-    "closing": "We understand what happens in the field, what management needs to see, and what must improve to sustain results."
+    "closing": "We understand what happens in operations, what leadership needs to see, and what must improve to sustain results where assets are critical."
   },
   "sectors": {
     "id": "setores",
@@ -73,16 +79,26 @@
     "items": [
       {
         "title": "Oil & gas",
-        "description": "Support for onshore and offshore operations with emphasis on reliability, uptime, and operational indicators."
+        "description": "Our roots are in offshore drilling operations — environments where safety, reliability, and operational efficiency are paramount. That is where we built the methodology we now apply in other industrial sectors."
       },
       {
         "title": "Process industries",
-        "description": "Maintenance, asset integrity, and data governance for plants that cannot afford unplanned downtime."
+        "description": "We bring offshore drilling discipline to process plants that cannot stop. We work on reducing non-productive time (NPT), asset integrity, maintenance, and operational visibility — connecting processes and equipment that often run without structured data."
       },
       {
         "title": "Energy & infrastructure",
-        "description": "Performance models, standardisation, and reporting for operations and maintenance teams."
+        "description": "We apply technology and operational management where assets are distributed, maintenance is reactive, and field visibility is low. We integrate data transmission, dashboards, and operational indicators to improve control, reliability, and decision-making."
       }
+    ]
+  },
+  "about": {
+    "id": "about",
+    "title": "About the company",
+    "paragraphs": [
+      "Jatoba Consulting & Technology was born from the founder’s hands-on experience in the offshore drilling industry — more than two decades in critical operations, operational management, maintenance, reliability, and continuous process improvement.",
+      "The company brings together professionals with backgrounds in automation, electronics, real-time data transmission, and technology solutions applied to industrial operations. Our focus is to turn operational data into visibility, control, and decision support.",
+      "Jatoba Consulting & Technology’s methodology was forged where safety, availability, and operational efficiency are non-negotiable. We carry that operational discipline to industries that depend on critical assets and still have low data integration and limited field visibility.",
+      "More than consulting, we deliver integration between operations, technology, and management — connecting people, processes, and equipment to increase reliability, cut losses, and improve operational performance."
     ]
   },
   "contact": {
