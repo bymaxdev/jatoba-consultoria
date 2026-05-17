@@ -1,29 +1,44 @@
 {
   "meta": {
     "title": "Jatoba Consulting and Technology | Oil, gas & industry consulting",
-    "description": "Practical solutions in technology and operational improvement: maintenance, KPIs, data, asset integrity, and industrial performance."
+    "description": "Technology and operational performance solutions: maintenance, KPIs, data, asset integrity, and decision-making in critical operations."
   },
   "nav": {
+    "about": "About us",
     "services": "Solutions",
     "why": "Why us",
-    "industries": "Industries & focus areas",
-    "about": "About the company",
+    "sectors": "Industries & focus",
     "contact": "Contact",
+    "languageHint": "Language",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
   "hero": {
     "eyebrow": "Consulting and technology",
     "title": "From operational experience to process transformation",
-    "subtitle1": "We combine real field experience, engineering, and technology to deliver solutions that increase control, efficiency, and operational reliability.",
-    "subtitle2": "We focus on process optimisation, asset management, and decision support in critical operations.",
+    "subtitle1": "We combine real field experience, engineering, and technology to build solutions that increase control, efficiency, and operational reliability.",
+    "subtitle2": "We work on process optimisation, asset management, and decision support in critical operations.",
     "ctaServices": "Explore solutions",
     "ctaContact": "Talk to Jatoba"
   },
+  "about": {
+    "id": "about",
+    "sectionIndex": "01",
+    "title": "About us",
+    "intro": "Consulting focused on technology and operational improvement in demanding industrial environments — field presence and management perspective.",
+    "paragraphs": [
+      "Jatoba Consulting & Technology grew out of the founder’s hands-on track record in the offshore drilling industry — over two decades in critical operations, operational management, maintenance, reliability, and continuous process improvement.",
+      "We bring together professionals skilled in automation, electronics, real-time data transmission, and technology solutions applied to industrial operations. Our focus is turning operational data into visibility, control, and decision support.",
+      "Our methodology was built where safety, availability, and operational efficiency are non-negotiable. We bring that discipline to industries that depend on critical assets yet still face limited data integration and field visibility.",
+      "More than consulting, we deliver integration across operations, technology, and management — connecting people, processes, and equipment to improve reliability, cut losses, and raise operational performance."
+    ]
+  },
   "solutions": {
     "id": "servicos",
+    "sectionIndex": "02",
     "title": "Technology & operational performance solutions",
-    "intro": "We turn operational experience into smart solutions that raise efficiency, cut losses, and support strategic decisions with greater precision, control, and visibility.",
+    "intro": "We turn operational experience into smart solutions that increase efficiency, reduce losses, and support strategic decisions with greater precision, control, and visibility.",
+    "accordionLead": "Expand each block to see the detailed topics.",
     "groups": [
       {
         "title": "Operations, maintenance & reliability",
@@ -56,56 +71,82 @@
   },
   "whyUs": {
     "id": "por-que-jatoba",
+    "sectionIndex": "03",
     "title": "Why clients choose us",
-    "intro1": "We turn operational experience in critical environments into practical technology, maintenance, and performance solutions.",
-    "intro2": "We work where lost time means direct loss — bringing visibility, control, and efficiency to industrial operations.",
+    "intro": "We turn operational experience in critical environments into hands-on technology, maintenance, and performance solutions. We work where lost time means direct loss — bringing visibility, control, and efficiency to industrial operations.",
     "deliverHeading": "What we deliver",
     "items": [
       "Consolidated field experience",
       "Operational discipline and KPI-led management",
-      "Technology applied to give visibility to assets and processes",
-      "Fast response and focus on operational continuity",
+      "Technology that creates visibility for assets and processes",
+      "Fast response with a focus on operational continuity",
       "Planned maintenance with real execution and follow-up",
-      "Field data turned into information for decisions",
-      "Process standardisation and reduced dependence on key individuals",
-      "Safety culture embedded in day-to-day operations",
-      "Simple, useful, outcome-oriented solutions"
+      "Field data turned into actionable information",
+      "Process standardisation and less dependence on key individuals",
+      "Safety culture embedded in daily operations",
+      "Simple, useful, outcome-driven solutions"
     ],
     "closing": "We understand what happens in operations, what leadership needs to see, and what must improve to sustain results where assets are critical."
   },
   "sectors": {
     "id": "setores",
+    "sectionIndex": "04",
     "title": "Sectors we serve",
+    "intro": "We operate in oil, gas, and energy — from offshore drilling to infrastructure, with the same operational discipline.",
     "items": [
       {
         "title": "Oil & gas",
-        "description": "Our roots are in offshore drilling operations — environments where safety, reliability, and operational efficiency are paramount. That is where we built the methodology we now apply in other industrial sectors."
+        "description": "Our roots lie in offshore drilling — environments where safety, reliability, and efficiency are decisive. That is where we built the methodology we now apply in other industrial sectors.",
+        "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1200&q=80"
       },
       {
         "title": "Process industries",
-        "description": "We bring offshore drilling discipline to process plants that cannot stop. We work on reducing non-productive time (NPT), asset integrity, maintenance, and operational visibility — connecting processes and equipment that often run without structured data."
+        "description": "We bring offshore drilling discipline to plants that cannot stop: NPT reduction, asset integrity, maintenance, and operational visibility — connecting processes and equipment that often still run without structured data.",
+        "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80"
       },
       {
         "title": "Energy & infrastructure",
-        "description": "We apply technology and operational management where assets are distributed, maintenance is reactive, and field visibility is low. We integrate data transmission, dashboards, and operational indicators to improve control, reliability, and decision-making."
+        "description": "Technology and operational management for distributed assets, reactive maintenance, and limited field visibility. We integrate data transmission, dashboards, and indicators to strengthen control, reliability, and decision-making.",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80"
       }
-    ]
-  },
-  "about": {
-    "id": "about",
-    "title": "About the company",
-    "paragraphs": [
-      "Jatoba Consulting & Technology was born from the founder’s hands-on experience in the offshore drilling industry — more than two decades in critical operations, operational management, maintenance, reliability, and continuous process improvement.",
-      "The company brings together professionals with backgrounds in automation, electronics, real-time data transmission, and technology solutions applied to industrial operations. Our focus is to turn operational data into visibility, control, and decision support.",
-      "Jatoba Consulting & Technology’s methodology was forged where safety, availability, and operational efficiency are non-negotiable. We carry that operational discipline to industries that depend on critical assets and still have low data integration and limited field visibility.",
-      "More than consulting, we deliver integration between operations, technology, and management — connecting people, processes, and equipment to increase reliability, cut losses, and improve operational performance."
     ]
   },
   "contact": {
     "id": "contato",
+    "sectionIndex": "05",
     "title": "Contact",
-    "intro": "Send a message and we’ll get back to you shortly.",
-    "emailNote": "You can also e-mail the address your team provides at go-live.",
+    "intro": "Send a message — we will respond as soon as we can.",
+    "emailNote": "Complete the fields and send from this card. WhatsApp and Instagram are under Direct channels.",
+    "ariaWhatsapp": "Open WhatsApp in a new tab",
+    "ariaInstagram": "Open Instagram profile in a new tab",
+    "ariaSubmit": "Submit contact form",
+    "direct": {
+      "channelsTitle": "Direct channels",
+      "emailLabel": "Email",
+      "email": "contato@jatobaconsulting.com",
+      "socialTitle": "Social & messaging",
+      "socialIntro": "Reach the team on the app you prefer.",
+      "whatsappLabel": "WhatsApp",
+      "instagramLabel": "Instagram",
+      "whatsappUrl": "https://wa.me/5521999990000",
+      "instagramUrl": "https://www.instagram.com/jatobaconsulting/",
+      "locations": [
+        {
+          "title": "Brazil",
+          "lines": [
+            "Sample Street, 100 — suite",
+            "Neighbourhood — City/State",
+            "ZIP 00000-000"
+          ]
+        },
+        {
+          "title": "Regional coverage",
+          "lines": [
+            "On-demand projects and support in other locations, aligned with your team."
+          ]
+        }
+      ]
+    },
     "ctaOpen": "Contact us",
     "ctaClose": "Close form",
     "fields": {
@@ -120,7 +161,7 @@
       "name": "Your full name",
       "company": "Company name",
       "email": "you@company.com",
-      "phone": "+44 … / +55 …",
+      "phone": "+55 …",
       "message": "How can we help?"
     },
     "submit": "Send message",

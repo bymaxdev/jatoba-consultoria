@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Montserrat } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
@@ -6,8 +6,8 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 import { ContactFormProvider } from "@/components/ContactFormContext";
-import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -18,6 +18,12 @@ const montserrat = Montserrat({
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
 
 function resolveMetadataBase(): URL {
   const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim();
@@ -100,9 +106,11 @@ export default async function LocaleLayout({
       >
         <NextIntlClientProvider messages={messages}>
           <ContactFormProvider>
-            <Header />
-            <div className="flex flex-1 flex-col">{children}</div>
-            <Footer />
+            <div className="relative flex min-h-full flex-col">
+              <Header />
+              <div className="flex flex-1 flex-col">{children}</div>
+              <Footer />
+            </div>
           </ContactFormProvider>
         </NextIntlClientProvider>
       </body>

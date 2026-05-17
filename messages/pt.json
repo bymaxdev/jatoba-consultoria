@@ -1,14 +1,15 @@
 {
   "meta": {
     "title": "Jatoba Consulting and Technology | Consultoria em óleo, gás e indústria",
-    "description": "Soluções práticas em tecnologia e melhoria operacional: manutenção, KPIs, dados, integridade de ativos e desempenho industrial."
+    "description": "Soluções em tecnologia e performance operacional: manutenção, KPIs, dados, integridade de ativos e decisão em operações críticas."
   },
   "nav": {
+    "about": "Quem somos",
     "services": "Soluções",
     "why": "Por que nós",
-    "industries": "Indústrias e área de atuação",
-    "about": "Sobre a empresa",
+    "sectors": "Indústrias e atuação",
     "contact": "Contato",
+    "languageHint": "Idioma",
     "openMenu": "Abrir menu",
     "closeMenu": "Fechar menu"
   },
@@ -20,10 +21,24 @@
     "ctaServices": "Conhecer soluções",
     "ctaContact": "Falar com a Jatoba"
   },
+  "about": {
+    "id": "about",
+    "sectionIndex": "01",
+    "title": "Quem somos",
+    "intro": "Consultoria focada em tecnologia e melhoria operacional para ambientes industriais exigentes — presença de campo e visão de gestão.",
+    "paragraphs": [
+      "A Jatoba Consulting & Technology nasceu da experiência prática do seu fundador na indústria de perfuração offshore, ao longo de mais de duas décadas em operações críticas, gestão operacional, manutenção, confiabilidade e melhoria contínua de processos.",
+      "Reunimos profissionais com experiência em automação, eletrônica, transmissão de dados em tempo real e soluções tecnológicas aplicadas à operação industrial. Nosso foco é transformar dados operacionais em visibilidade, controle e apoio à tomada de decisão.",
+      "Nossa metodologia foi construída em ambientes onde segurança, disponibilidade e eficiência operacional são essenciais. Levamos essa disciplina a indústrias que dependem de ativos críticos e ainda enfrentam baixa integração de dados e visibilidade limitada de campo.",
+      "Mais do que consultoria, entregamos integração entre operação, tecnologia e gestão — conectando pessoas, processos e equipamentos para aumentar confiabilidade, reduzir perdas e melhorar a performance operacional."
+    ]
+  },
   "solutions": {
     "id": "servicos",
+    "sectionIndex": "02",
     "title": "Soluções de tecnologia e performance operacional",
     "intro": "Transformamos experiência operacional em soluções inteligentes para aumentar a eficiência, reduzir perdas e apoiar decisões estratégicas com mais precisão, controle e visibilidade.",
+    "accordionLead": "Abra cada bloco para ver os tópicos em detalhe.",
     "groups": [
       {
         "title": "Operação, manutenção e confiabilidade",
@@ -56,9 +71,9 @@
   },
   "whyUs": {
     "id": "por-que-jatoba",
+    "sectionIndex": "03",
     "title": "Por que os clientes nos escolhem",
-    "intro1": "Transformamos experiência operacional de ambientes críticos em soluções práticas de tecnologia, manutenção e performance.",
-    "intro2": "Atuamos onde tempo perdido significa prejuízo direto — levando visibilidade, controle e eficiência para operações industriais.",
+    "intro": "Transformamos experiência operacional de ambientes críticos em soluções práticas de tecnologia, manutenção e performance. Atuamos onde tempo perdido significa prejuízo direto — levando visibilidade, controle e eficiência às operações industriais.",
     "deliverHeading": "O que entregamos",
     "items": [
       "Experiência consolidada no campo",
@@ -75,37 +90,63 @@
   },
   "sectors": {
     "id": "setores",
+    "sectionIndex": "04",
     "title": "Setores que atendemos",
+    "intro": "Atuamos em óleo, gás e energia — da perfuração offshore à infraestrutura, com a mesma disciplina operacional.",
     "items": [
       {
         "title": "Óleo e gás",
-        "description": "Nossa origem está nas operações de perfuração offshore, atuando em ambientes onde segurança, confiabilidade e eficiência operacional são críticas. Foi nesse cenário que desenvolvemos a metodologia que hoje aplicamos em outros setores industriais."
+        "description": "Nossa origem está nas operações de perfuração offshore, em ambientes onde segurança, confiabilidade e eficiência são decisivas. Foi nesse contexto que desenvolvemos a metodologia que aplicamos hoje em outros setores industriais.",
+        "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1200&q=80"
       },
       {
         "title": "Indústrias de processo",
-        "description": "Levamos a disciplina operacional da perfuração offshore para plantas industriais que não podem parar. Atuamos na redução de tempo não produtivo (NPT), integridade de ativos, manutenção e visibilidade operacional, conectando processos e equipamentos que hoje operam sem dados estruturados."
+        "description": "Levamos a disciplina da perfuração offshore a plantas que não podem parar: redução de NPT, integridade de ativos, manutenção e visibilidade operacional — conectando processos e equipamentos que muitas vezes ainda operam sem dados estruturados.",
+        "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80"
       },
       {
         "title": "Energia e infraestrutura",
-        "description": "Aplicamos tecnologia e gestão operacional em ambientes com ativos distribuídos, manutenção reativa e baixa visibilidade de campo. Integramos transmissão de dados, dashboards e indicadores operacionais para aumentar controle, confiabilidade e capacidade de decisão."
+        "description": "Tecnologia e gestão operacional para ativos distribuídos, manutenção reativa e baixa visibilidade de campo. Integramos transmissão de dados, dashboards e indicadores para ampliar controle, confiabilidade e capacidade de decisão.",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80"
       }
-    ]
-  },
-  "about": {
-    "id": "about",
-    "title": "Sobre a empresa",
-    "paragraphs": [
-      "A Jatoba Consulting & Technology nasceu da experiência prática do seu fundador na indústria de perfuração offshore, atuando por mais de duas décadas em operações críticas, gestão operacional, manutenção, confiabilidade e melhoria contínua de processos.",
-      "A empresa reúne profissionais com experiência em automação, eletrônica, transmissão de dados em tempo real e desenvolvimento de soluções tecnológicas aplicadas à operação industrial. Nosso foco é transformar dados operacionais em visibilidade, controle e suporte à tomada de decisão.",
-      "A metodologia da Jatoba Consulting & Technology foi construída em ambientes onde segurança, disponibilidade e eficiência operacional são essenciais. Levamos essa disciplina operacional para indústrias que dependem de ativos críticos e ainda possuem processos com baixa integração de dados e pouca visibilidade de campo.",
-      "Mais do que consultoria, entregamos integração entre operação, tecnologia e gestão — conectando pessoas, processos e equipamentos para aumentar confiabilidade, reduzir perdas e melhorar a performance operacional."
     ]
   },
   "contact": {
     "id": "contato",
+    "sectionIndex": "05",
     "title": "Contato",
-    "intro": "Envie uma mensagem e retornaremos o mais breve possível.",
-    "emailNote": "Ou escreva diretamente para o e-mail que sua equipe indicar após o go-live.",
+    "intro": "Envie uma mensagem: retornamos o mais breve possível.",
+    "emailNote": "Preencha os dados e envie por este cartão. WhatsApp e Instagram ficam em Canais diretos.",
+    "ariaWhatsapp": "Abrir conversa no WhatsApp em nova aba",
+    "ariaInstagram": "Abrir perfil no Instagram em nova aba",
+    "ariaSubmit": "Enviar mensagem do formulário",
+    "direct": {
+      "channelsTitle": "Canais diretos",
+      "emailLabel": "E-mail",
+      "email": "contato@jatobaconsulting.com",
+      "socialTitle": "Redes e mensagens",
+      "socialIntro": "Fale com a equipe pelo app que preferir.",
+      "whatsappLabel": "WhatsApp",
+      "instagramLabel": "Instagram",
+      "whatsappUrl": "https://wa.me/5521999990000",
+      "instagramUrl": "https://www.instagram.com/jatobaconsulting/",
+      "locations": [
+        {
+          "title": "Brasil",
+          "lines": [
+            "Rua Exemplo, 100 — complemento",
+            "Bairro — Cidade/Estado",
+            "CEP 00000-000"
+          ]
+        },
+        {
+          "title": "Atendimento regional",
+          "lines": [
+            "Projetos e suporte sob demanda em outras localidades, alinhados ao seu time."
+          ]
+        }
+      ]
+    },
     "ctaOpen": "Fale conosco",
     "ctaClose": "Fechar formulário",
     "fields": {
@@ -120,11 +161,11 @@
       "name": "Seu nome completo",
       "company": "Nome da empresa",
       "email": "voce@empresa.com",
-      "phone": "+55 ...",
+      "phone": "+55 …",
       "message": "Como podemos ajudar?"
     },
     "submit": "Enviar mensagem",
-    "sending": "Enviando...",
+    "sending": "Enviando…",
     "success": "Mensagem enviada. Obrigado pelo contato.",
     "error": "Não foi possível enviar. Tente novamente ou use outro canal.",
     "validation": {
