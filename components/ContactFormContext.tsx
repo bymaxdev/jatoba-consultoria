@@ -18,7 +18,7 @@ type ContactFormContextValue = {
 const ContactFormContext = createContext<ContactFormContextValue | null>(null);
 
 export function ContactFormProvider({ children }: { children: ReactNode }) {
-  const [isOpen, setOpen] = useState(false);
+  const [isOpen, setOpen] = useState(true);
 
   const openForm = useCallback(() => setOpen(true), []);
   const closeForm = useCallback(() => setOpen(false), []);

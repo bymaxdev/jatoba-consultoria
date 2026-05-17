@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { RevealOnScroll } from "@/components/RevealOnScroll";
+import { SectionBackdropMark } from "@/components/SectionBackdropMark";
 import { SectionHeading } from "@/components/SectionHeading";
 
 export async function AboutSection() {
@@ -9,9 +10,10 @@ export async function AboutSection() {
   return (
     <section
       id={t("id")}
-      className="scroll-mt-20 border-b border-white/10 bg-jac-navy-950 py-16 sm:scroll-mt-24 md:scroll-mt-28 md:py-24"
+      className="relative isolate scroll-mt-20 overflow-hidden border-b border-white/10 bg-jac-navy-950 py-16 sm:scroll-mt-24 md:scroll-mt-28 md:py-24"
     >
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <SectionBackdropMark />
+      <div className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <RevealOnScroll>
           <SectionHeading index={t("sectionIndex")} title={t("title")} intro={t("intro")} />
         </RevealOnScroll>

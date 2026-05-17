@@ -5,6 +5,8 @@ import { SectionHeading } from "@/components/SectionHeading";
 export async function WhyUs() {
   const t = await getTranslations("whyUs");
   const items = t.raw("items") as string[];
+  const n = items.length;
+  const lastIsOrphanInTwoCol = n % 2 === 1;
 
   return (
     <section
@@ -16,12 +18,25 @@ export async function WhyUs() {
           <SectionHeading index={t("sectionIndex")} title={t("title")} intro={t("intro")} />
         </RevealOnScroll>
 
-        <ul className="mt-10 grid gap-4 sm:mt-14 sm:grid-cols-2 sm:gap-5 lg:gap-8">
-          {items.map((item, i) => (
-            <li key={item} className="min-w-0">
+        <RevealOnScroll delayMs={50}>
+          <h3 className="mt-8 text-sm font-semibold uppercase tracking-[0.18em] text-jac-blue-bright sm:mt-10">
+            {t("deliverHeading")}
+          </h3>
+        </RevealOnScroll>
+
+        <ul className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:gap-6">
+          {items.map((item, i) => {
+            const isLast = i === n - 1;
+            const orphan2 =
+              lastIsOrphanInTwoCol && isLast
+                ? "sm:col-span-2 sm:mx-auto sm:max-w-xl md:max-w-2xl lg:col-span-1 lg:mx-0 lg:max-w-none"
+                : "";
+
+            return (
+            <li key={`why-${i}`} className={`min-w-0 ${orphan2}`}>
               <RevealOnScroll
                 delayMs={i * 75}
-                className="flex h-full gap-3 rounded-lg border border-white/10 bg-jac-navy-950/35 p-4 text-sm leading-snug text-jac-silver-100 sm:gap-4 sm:p-6 sm:text-base"
+                className="flex h-full min-h-full gap-3 rounded-lg border border-white/10 bg-jac-navy-950/35 p-4 text-sm leading-snug text-jac-silver-100 sm:gap-4 sm:p-5 sm:text-[0.9375rem] lg:p-6 lg:text-base"
               >
                 <span
                   className="mt-0.5 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-jac-blue-accent/55 text-[0.875rem] text-white shadow-inner"
@@ -29,10 +44,11 @@ export async function WhyUs() {
                 >
                   ✓
                 </span>
-                <span>{item}</span>
+                <span className="text-pretty">{item}</span>
               </RevealOnScroll>
             </li>
-          ))}
+            );
+          })}
         </ul>
 
         <RevealOnScroll delayMs={120}>

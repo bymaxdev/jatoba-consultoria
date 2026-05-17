@@ -29,31 +29,41 @@ export async function Sectors() {
         <div className="mt-10 grid gap-6 sm:mt-12 sm:grid-cols-2 sm:gap-8 lg:grid-cols-3">
           {items.map((sector, i) => (
             <RevealOnScroll key={`${sector.title}-${i}`} delayMs={i * 55}>
-              <article className="group flex h-full flex-col overflow-hidden rounded-lg border border-white/10 bg-jac-navy-950/45 transition hover:border-jac-blue-bright/35">
-                <div className="relative aspect-16/10 w-full overflow-hidden">
+              <article className="group flex h-full flex-col overflow-hidden rounded-xl border border-white/10 bg-jac-navy-950/50 shadow-lg shadow-black/15 transition hover:border-jac-blue-bright/40">
+                <div className="relative aspect-5/3 w-full shrink-0 overflow-hidden border-b border-white/10">
                   <Image
                     src={sector.image}
                     alt=""
                     fill
-                    className="object-cover transition duration-500 group-hover:scale-105"
+                    className="object-cover transition duration-500 group-hover:scale-[1.03]"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
                   <div
-                    className="absolute inset-0 bg-linear-to-t from-jac-navy-950 via-jac-navy-950/20 to-transparent"
+                    className="absolute inset-0 bg-linear-to-t from-jac-navy-950/90 via-transparent to-jac-navy-950/30"
                     aria-hidden
                   />
-                  <span
-                    className="absolute bottom-3 left-3 font-mono text-2xl tabular-nums text-white/90 drop-shadow-md sm:bottom-4 sm:left-4 sm:text-3xl"
+                  <div
+                    className="absolute left-4 top-4 z-10 flex h-10 w-10 items-center justify-center rounded-lg border border-white/20 bg-jac-navy-950/75 shadow-md backdrop-blur-sm sm:h-11 sm:w-11"
                     aria-hidden
                   >
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
+                    <span className="font-mono text-base font-semibold tabular-nums text-jac-blue-bright sm:text-lg">
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
+                  </div>
                 </div>
-                <div className="flex flex-1 flex-col p-4 sm:p-6">
-                  <h3 className="font-semibold text-lg text-white tracking-wide sm:text-xl">
-                    {sector.title}
-                  </h3>
-                  <p className="mt-2 flex-1 text-sm leading-relaxed text-jac-silver-300 sm:mt-3 sm:text-[0.95rem]">
+
+                <div className="flex flex-1 flex-col gap-4 p-5 sm:p-6">
+                  <div className="min-w-0">
+                    <h3 className="text-pretty font-semibold text-lg leading-snug tracking-wide text-white sm:text-xl">
+                      {sector.title}
+                    </h3>
+                    <div
+                      className="mt-3 h-px w-12 rounded-full bg-linear-to-r from-jac-blue-bright to-transparent"
+                      aria-hidden
+                    />
+                  </div>
+
+                  <p className="text-sm leading-relaxed text-jac-silver-300 sm:text-[0.9375rem] sm:leading-relaxed">
                     {sector.description}
                   </p>
                 </div>

@@ -1,13 +1,13 @@
 {
   "meta": {
     "title": "Jatoba Consulting and Technology | Oil, gas & industry consulting",
-    "description": "Practical solutions in technology and operational improvement: maintenance, KPIs, data, asset integrity, and industrial performance."
+    "description": "Technology and operational performance solutions: maintenance, KPIs, data, asset integrity, and decision-making in critical operations."
   },
   "nav": {
     "about": "About us",
     "services": "Solutions",
-    "why": "Why Jatoba",
-    "sectors": "Sectors",
+    "why": "Why us",
+    "sectors": "Industries & focus",
     "contact": "Contact",
     "languageHint": "Language",
     "openMenu": "Open menu",
@@ -15,8 +15,9 @@
   },
   "hero": {
     "eyebrow": "Consulting and technology",
-    "title": "From field operations to management visibility",
-    "subtitle": "We build practical solutions that help organisations gain control, visibility, and performance in critical areas — with a sharp focus on efficiency, safety, and better-informed decisions. We work alongside operations, maintenance, and leadership teams to turn data and processes into actions that cut losses, strengthen reliability, and sustain clearer decisions across the industrial day-to-day.",
+    "title": "From operational experience to process transformation",
+    "subtitle1": "We combine real field experience, engineering, and technology to build solutions that increase control, efficiency, and operational reliability.",
+    "subtitle2": "We work on process optimisation, asset management, and decision support in critical operations.",
     "ctaServices": "Explore solutions",
     "ctaContact": "Talk to Jatoba"
   },
@@ -24,97 +25,46 @@
     "id": "about",
     "sectionIndex": "01",
     "title": "About us",
-    "intro": "We are a consulting firm focused on technology and operational improvement in demanding industrial environments — bringing field presence and management perspective together.",
+    "intro": "Consulting focused on technology and operational improvement in demanding industrial environments — field presence and management perspective.",
     "paragraphs": [
-      "Jatoba Consulting and Technology helps organisations align plant realities with board-level needs. We combine hands-on operations and maintenance experience with data, metrics, and process governance to reduce uncertainty and speed up improvement.",
-      "We know business upside can turn into exposure when clarity, reliable visibility, and execution discipline are missing. That is why we work from workflow and instrumentation design through KPI cadence and team readiness to sustain gains over time.",
-      "We assemble workstreams with profiles that match each challenge — from asset reliability to materials and workforce performance — helping your operation gain predictability and sustainable performance."
+      "Jatoba Consulting & Technology grew out of the founder’s hands-on track record in the offshore drilling industry — over two decades in critical operations, operational management, maintenance, reliability, and continuous process improvement.",
+      "We bring together professionals skilled in automation, electronics, real-time data transmission, and technology solutions applied to industrial operations. Our focus is turning operational data into visibility, control, and decision support.",
+      "Our methodology was built where safety, availability, and operational efficiency are non-negotiable. We bring that discipline to industries that depend on critical assets yet still face limited data integration and field visibility.",
+      "More than consulting, we deliver integration across operations, technology, and management — connecting people, processes, and equipment to improve reliability, cut losses, and raise operational performance."
     ]
-  },
-  "testimonial": {
-    "sectionIndex": "04",
-    "title": "Testimonial",
-    "intro": "Notes from a recent engagement on operational improvement and management visibility.",
-    "quote": "Jatoba helped us organise how we read operations and prioritise what truly moved availability and cost. The approach is technical, pragmatic, and aligned with what leadership needs to decide.",
-    "author": "Ana Costa",
-    "role": "Reliability Manager — Industrial group (fictional name for demo purposes)"
   },
   "solutions": {
     "id": "servicos",
     "sectionIndex": "02",
-    "title": "Our services",
-    "intro": "Consulting aligned with contract management, QHSE, change, and engineering — structured offerings you can open by theme.",
-    "accordionLead": "Tap or click a heading to expand the topic list.",
+    "title": "Technology & operational performance solutions",
+    "intro": "We turn operational experience into smart solutions that increase efficiency, reduce losses, and support strategic decisions with greater precision, control, and visibility.",
+    "accordionLead": "Expand each block to see the detailed topics.",
     "groups": [
       {
-        "title": "Business, strategy and contracts",
+        "title": "Operations, maintenance & reliability",
         "items": [
-          "Contract analysis, negotiation and administration",
-          "Amendments and assignments",
-          "Contractual compliance management and monitoring",
-          "Bids documentation support and analysis",
-          "Risk management",
-          "Training in contracts for management and operational teams",
-          "Management of administrative and operational documentation",
-          "Business strategy",
-          "Claims preparation and dispute resolution",
-          "Design and implementation of personalised contractual management",
-          "Analysis and support to operational reports (daily operational reports, daily drilling reports, etc.)",
-          "24/7 contracts support online — offshore operations and managers",
-          "Support to supply/procurement in contracts for vendors, suppliers, services",
-          "Stakeholders documentation support (summaries, reports, etc.)"
+          "Operational maintenance planning and management",
+          "Equipment performance and reliability monitoring",
+          "Analysis and reduction of non-productive time (NPT)",
+          "Operational control focused on efficiency, availability, and safety"
         ]
       },
       {
-        "title": "QHSE",
+        "title": "Data, visibility & decision-making",
         "items": [
-          "Procedures reviewing",
-          "Internal audits and pre-audits",
-          "Support in external audits",
-          "Incident investigations",
-          "Contract performance",
-          "Risk management",
-          "Incident reports",
-          "Process analysis"
+          "Acquisition, integration, and transmission of operational data",
+          "Dashboards and strategic performance indicators (KPIs)",
+          "Management reporting and decision-support tools",
+          "Standardisation of processes, controls, and operational workflows"
         ]
       },
       {
-        "title": "Change management",
+        "title": "Assets, materials & people",
         "items": [
-          "Support during the implementation of change management",
-          "Analysis and design of existing (as-is) and future (to-be) processes",
-          "Impact analysis and optimisation",
-          "Documentation review associated with change management projects"
-        ]
-      },
-      {
-        "title": "Engineering",
-        "items": [
-          "Project management",
-          "Strategic, operational and tactical planning",
-          "Technical reports and engineering technical responsibility documentation",
-          "Technical surveys and estimations"
-        ]
-      },
-      {
-        "title": "Industries",
-        "items": [
-          "Oil and gas",
-          "Energy and renewables",
-          "Engineering (maintenance and construction)"
-        ]
-      },
-      {
-        "title": "Types of contracts",
-        "items": [
-          "Fixed price contracts",
-          "Cost-plus contracts",
-          "Time and materials contracts",
-          "Unit pricing contracts",
-          "Lump-sum contracts",
-          "Charter and services contracts",
-          "Unilateral and bilateral contracts",
-          "Non-disclosure agreements"
+          "Inventory, materials, and spare-parts management",
+          "Asset integrity and inspection follow-up",
+          "Operational control and traceability of equipment",
+          "Specialised workforce and operational technical support"
         ]
       }
     ]
@@ -122,70 +72,64 @@
   "whyUs": {
     "id": "por-que-jatoba",
     "sectionIndex": "03",
-    "title": "Why clients work with us",
-    "intro": "Clients engage us because we combine field experience, leadership-level operational judgment, and technical delivery anchored in business outcomes.",
+    "title": "Why clients choose us",
+    "intro": "We turn operational experience in critical environments into hands-on technology, maintenance, and performance solutions. We work where lost time means direct loss — bringing visibility, control, and efficiency to industrial operations.",
+    "deliverHeading": "What we deliver",
     "items": [
-      "Real field experience",
-      "Operational insight at leadership level",
-      "Strong technical credibility",
-      "Safety-first mindset",
-      "Maintenance and reliability perspective",
-      "Process-improvement capability",
-      "Practical use of technology",
-      "Business performance focus"
+      "Consolidated field experience",
+      "Operational discipline and KPI-led management",
+      "Technology that creates visibility for assets and processes",
+      "Fast response with a focus on operational continuity",
+      "Planned maintenance with real execution and follow-up",
+      "Field data turned into actionable information",
+      "Process standardisation and less dependence on key individuals",
+      "Safety culture embedded in daily operations",
+      "Simple, useful, outcome-driven solutions"
     ],
-    "closing": "We understand what happens in the field, what management needs to see, and what must improve to sustain results."
+    "closing": "We understand what happens in operations, what leadership needs to see, and what must improve to sustain results where assets are critical."
   },
   "sectors": {
     "id": "setores",
-    "sectionIndex": "05",
-    "title": "Sectors",
-    "intro": "Themes we support across oil, gas, and energy projects — from subsurface to logistics, operations, and compliance.",
+    "sectionIndex": "04",
+    "title": "Sectors we serve",
+    "intro": "We operate in oil, gas, and energy — from offshore drilling to infrastructure, with the same operational discipline.",
     "items": [
       {
-        "title": "Engineering",
-        "description": "Technical planning, deliverables, and responsibility registers that support decisions on shore and offshore.",
+        "title": "Oil & gas",
+        "description": "Our roots lie in offshore drilling — environments where safety, reliability, and efficiency are decisive. That is where we built the methodology we now apply in other industrial sectors.",
         "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1200&q=80"
       },
       {
-        "title": "Construction and maintenance",
-        "description": "Major works and turnaround windows requiring disciplined documentation and stakeholder visibility.",
+        "title": "Process industries",
+        "description": "We bring offshore drilling discipline to plants that cannot stop: NPT reduction, asset integrity, maintenance, and operational visibility — connecting processes and equipment that often still run without structured data.",
         "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80"
       },
       {
-        "title": "Operational",
-        "description": "Day-to-day operations: routines, reporting lines, and continuous improvement tied to the field.",
+        "title": "Energy & infrastructure",
+        "description": "Technology and operational management for distributed assets, reactive maintenance, and limited field visibility. We integrate data transmission, dashboards, and indicators to strengthen control, reliability, and decision-making.",
         "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "title": "Risk management and insurance",
-        "description": "Identification, mitigation, and evidence trails that support governance and cover arrangements.",
-        "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "title": "Regulatory and compliance",
-        "description": "Interfaces with regulators, audits, and internal controls in highly regulated environments.",
-        "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80"
-      },
-      {
-        "title": "Future trends in the petroleum industry",
-        "description": "Scenarios, digitalisation, and new business models shaping long-term portfolio choices.",
-        "image": "https://images.unsplash.com/photo-1617791160505-6f00504e3519?auto=format&fit=crop&w=1200&q=80"
       }
     ]
   },
   "contact": {
     "id": "contato",
-    "sectionIndex": "06",
+    "sectionIndex": "05",
     "title": "Contact",
-    "intro": "Send a message and we’ll get back to you shortly.",
-    "emailNote": "You can also reach us directly through the channels alongside.",
+    "intro": "Send a message — we will respond as soon as we can.",
+    "emailNote": "Complete the fields and send from this card. WhatsApp and Instagram are under Direct channels.",
+    "ariaWhatsapp": "Open WhatsApp in a new tab",
+    "ariaInstagram": "Open Instagram profile in a new tab",
+    "ariaSubmit": "Submit contact form",
     "direct": {
       "channelsTitle": "Direct channels",
       "emailLabel": "Email",
       "email": "contato@jatobaconsulting.com",
-      "phoneLabel": "Phone",
-      "phone": "+55 (21) 99999-0000",
+      "socialTitle": "Social & messaging",
+      "socialIntro": "Reach the team on the app you prefer.",
+      "whatsappLabel": "WhatsApp",
+      "instagramLabel": "Instagram",
+      "whatsappUrl": "https://wa.me/5521999990000",
+      "instagramUrl": "https://www.instagram.com/jatobaconsulting/",
       "locations": [
         {
           "title": "Brazil",
@@ -198,7 +142,7 @@
         {
           "title": "Regional coverage",
           "lines": [
-            "On-demand projects and support in other locations by arrangement with your team."
+            "On-demand projects and support in other locations, aligned with your team."
           ]
         }
       ]
@@ -217,7 +161,7 @@
       "name": "Your full name",
       "company": "Company name",
       "email": "you@company.com",
-      "phone": "+44 … / +55 …",
+      "phone": "+55 …",
       "message": "How can we help?"
     },
     "submit": "Send message",

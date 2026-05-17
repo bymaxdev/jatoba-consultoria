@@ -6,8 +6,8 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 import { ContactFormProvider } from "@/components/ContactFormContext";
-import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { Header } from "@/components/Header";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -106,9 +106,11 @@ export default async function LocaleLayout({
       >
         <NextIntlClientProvider messages={messages}>
           <ContactFormProvider>
-            <Header />
-            <div className="flex flex-1 flex-col">{children}</div>
-            <Footer />
+            <div className="relative flex min-h-full flex-col">
+              <Header />
+              <div className="flex flex-1 flex-col">{children}</div>
+              <Footer />
+            </div>
           </ContactFormProvider>
         </NextIntlClientProvider>
       </body>

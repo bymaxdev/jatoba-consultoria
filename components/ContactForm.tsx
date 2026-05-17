@@ -1,21 +1,54 @@
 "use client";
 
 import { useLocale, useTranslations } from "next-intl";
-import { useState, type RefObject } from "react";
+import { useEffect, useState, type RefObject } from "react";
 
-type SubmitState = "idle" | "sending" | "success" | "error";
+export type ContactFormSubmitState = "idle" | "sending" | "success" | "error";
+
+function IconSend({ className }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      <path d="m22 2-7 20-4-9-9-4 18-7z" />
+      <path d="M22 2 11 13" />
+    </svg>
+  );
+}
 
 type ContactFormProps = {
   firstInputRef?: RefObject<HTMLInputElement | null>;
+  formId?: string;
+  showSubmitRow?: boolean;
+  onSubmitStateChange?: (state: ContactFormSubmitState) => void;
+  /** Botão centralizado, estilo alinhado aos CTAs sociais (gradiente, cantos xl). */
+  submitStyle?: "default" | "prominent";
 };
 
-export function ContactForm({ firstInputRef }: ContactFormProps) {
+export function ContactForm({
+  firstInputRef,
+  formId = "contact-main",
+  showSubmitRow = true,
+  onSubmitStateChange,
+  submitStyle = "default",
+}: ContactFormProps) {
   const t = useTranslations("contact");
   const tv = useTranslations("contact.validation");
   const locale = useLocale();
 
-  const [state, setState] = useState<SubmitState>("idle");
+  const [state, setState] = useState<ContactFormSubmitState>("idle");
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
+
+  useEffect(() => {
+    onSubmitStateChange?.(state);
+  }, [state, onSubmitStateChange]);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -72,8 +105,11 @@ export function ContactForm({ firstInputRef }: ContactFormProps) {
 
   const labelCls = "block text-xs font-medium uppercase tracking-wider text-jac-silver-400";
 
+  const prominentSubmitCls =
+    "flex min-h-13 w-full max-w-md items-center justify-center gap-3 rounded-xl bg-linear-to-br from-jac-blue-bright to-jac-blue-accent px-4 py-3.5 text-sm font-semibold text-white shadow-md shadow-black/25 ring-1 ring-white/25 transition hover:brightness-110 hover:shadow-lg active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-65 disabled:hover:brightness-100 sm:py-4";
+
   return (
-    <form onSubmit={handleSubmit} className="relative max-w-2xl space-y-8">
+    <form id={formId} onSubmit={handleSubmit} className="relative w-full space-y-8">
       {/* Honeypot */}
       <div className="pointer-events-none absolute opacity-5" aria-hidden="true">
         <label htmlFor="website">{t("honeypotLabel")}</label>
@@ -164,24 +200,56 @@ export function ContactForm({ firstInputRef }: ContactFormProps) {
         {fieldErrors.message && (
           <p className="mt-1.5 text-sm text-red-400">{fieldErrors.message}</p>
         )}
-      </div>
-
-      <div className="flex flex-wrap items-center gap-4 border-white/5 border-t pt-8">
-        <button
-          type="submit"
-          disabled={state === "sending" || state === "success"}
-          className="inline-flex min-h-12 w-full cursor-pointer items-center justify-center rounded-lg bg-jac-blue-bright px-8 text-base font-semibold text-white shadow-md transition hover:bg-jac-blue-accent disabled:cursor-not-allowed disabled:opacity-65 sm:w-auto sm:px-10"
-        >
-          {state === "sending" ? t("sending") : t("submit")}
-        </button>
-
-        {state === "success" && (
-          <p className="font-medium text-emerald-400 text-sm">{t("success")}</p>
+        {!showSubmitRow && state === "success" && (
+          <p className="mt-4 text-sm font-medium text-emerald-400">{t("success")}</p>
         )}
-        {state === "error" && (
-          <p className="font-medium text-red-400 text-sm">{t("error")}</p>
+        {!showSubmitRow && state === "error" && (
+          <p className="mt-4 text-sm font-medium text-red-400">{t("error")}</p>
         )}
       </div>
+
+      {showSubmitRow ? (
+        submitStyle === "prominent" ? (
+          <div className="flex flex-col items-center gap-4 border-t border-white/5 pt-8">
+            <button
+              type="submit"
+              disabled={state === "sending" || state === "success"}
+              className={prominentSubmitCls}
+              aria-label={t("ariaSubmit")}
+            >
+              <IconSend className="size-6 shrink-0 opacity-95" />
+              {state === "sending" ? t("sending") : t("submit")}
+            </button>
+            {state === "success" && (
+              <p className="max-w-md text-center text-sm font-medium text-emerald-400">
+                {t("success")}
+              </p>
+            )}
+            {state === "error" && (
+              <p className="max-w-md text-center text-sm font-medium text-red-400">
+                {t("error")}
+              </p>
+            )}
+          </div>
+        ) : (
+          <div className="flex flex-wrap items-center gap-4 border-t border-white/5 pt-8">
+            <button
+              type="submit"
+              disabled={state === "sending" || state === "success"}
+              className="inline-flex min-h-12 w-full cursor-pointer items-center justify-center rounded-lg bg-jac-blue-bright px-8 text-base font-semibold text-white shadow-md transition hover:bg-jac-blue-accent disabled:cursor-not-allowed disabled:opacity-65 sm:w-auto sm:px-10"
+            >
+              {state === "sending" ? t("sending") : t("submit")}
+            </button>
+
+            {state === "success" && (
+              <p className="text-sm font-medium text-emerald-400">{t("success")}</p>
+            )}
+            {state === "error" && (
+              <p className="text-sm font-medium text-red-400">{t("error")}</p>
+            )}
+          </div>
+        )
+      ) : null}
     </form>
   );
 }
