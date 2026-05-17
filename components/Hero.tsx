@@ -7,7 +7,7 @@ export async function Hero() {
   const t = await getTranslations("hero");
 
   return (
-    <section className="relative isolate overflow-hidden">
+    <section className="relative isolate overflow-hidden border-b border-white/10">
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <Image
           src="/campaign-creators-gMsnXqILjp4-unsplash.jpg"
@@ -27,28 +27,28 @@ export async function Hero() {
         />
       </div>
 
-      <div className="relative mx-auto max-w-6xl px-4 py-28 sm:px-6 sm:py-36 lg:px-8 lg:py-44">
-        <p className="mb-5 inline-flex rounded-full border border-white/15 bg-black/25 px-3 py-1 text-xs font-semibold uppercase tracking-[0.2em] text-jac-silver-300 backdrop-blur-sm">
+      <div className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28 md:py-36 lg:px-8 lg:py-44">
+        <p className="mb-4 inline-flex max-w-full rounded-full border border-white/15 bg-black/25 px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-jac-silver-300 backdrop-blur-sm sm:mb-5 sm:text-xs sm:tracking-[0.2em]">
           {t("eyebrow")}
         </p>
-        <h1 className="max-w-3xl font-bold text-zinc-100 text-4xl leading-tight tracking-tight md:text-5xl lg:text-6xl lg:leading-[1.1]">
+        <h1 className="max-w-3xl text-balance font-bold text-3xl leading-[1.15] tracking-tight text-zinc-100 sm:text-4xl md:text-5xl lg:text-6xl lg:leading-[1.1]">
           {t("title")}
         </h1>
-        <p className="mt-8 max-w-2xl text-lg leading-relaxed text-jac-silver-100/95 md:text-xl">
+        <p className="mt-6 max-w-2xl text-base leading-relaxed text-jac-silver-100/95 sm:mt-8 sm:text-lg md:text-xl">
           {t("subtitle")}
         </p>
-        <div className="mt-12 flex flex-col gap-4 sm:flex-row sm:gap-6">
+        <div className="mt-10 flex flex-col gap-3 sm:mt-12 sm:flex-row sm:gap-6">
           <Link
             href="/#servicos"
             prefetch={false}
-            className="inline-flex min-h-12 cursor-pointer items-center justify-center rounded-md bg-jac-blue-bright px-8 text-base font-semibold text-white shadow-lg shadow-black/30 transition hover:bg-jac-blue-accent"
+            className="inline-flex min-h-12 w-full cursor-pointer items-center justify-center rounded-md bg-jac-blue-bright px-6 text-base font-semibold text-white shadow-lg shadow-black/30 transition hover:bg-jac-blue-accent sm:w-auto sm:px-8"
           >
             {t("ctaServices")}
           </Link>
           <ContactOpenLink
             href="/#contato"
             prefetch={false}
-            className="inline-flex min-h-12 cursor-pointer items-center justify-center rounded-md border border-white/25 px-8 text-base font-semibold text-jac-silver-100 transition hover:border-white/40 hover:bg-white/10"
+            className="inline-flex min-h-12 w-full cursor-pointer items-center justify-center rounded-md border border-white/25 px-6 text-base font-semibold text-jac-silver-100 transition hover:border-white/40 hover:bg-white/10 sm:w-auto sm:px-8"
           >
             {t("ctaContact")}
           </ContactOpenLink>

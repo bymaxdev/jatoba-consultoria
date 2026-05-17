@@ -5,7 +5,7 @@ export async function Footer() {
   const t = await getTranslations("footer");
 
   return (
-    <footer className="mt-auto border-t border-white/10 bg-jac-navy-950/90 py-14">
+    <footer className="mt-auto border-t border-white/10 bg-jac-navy-950/90 py-10 pb-[max(2.5rem,env(safe-area-inset-bottom))] sm:py-14">
       <div className="mx-auto flex max-w-6xl flex-col gap-10 px-4 sm:px-6 lg:flex-row lg:justify-between lg:px-8">
         <div className="max-w-lg">
           <p className="font-medium text-white tracking-wide">{t("tagline")}</p>

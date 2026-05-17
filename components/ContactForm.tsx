@@ -170,7 +170,7 @@ export function ContactForm({ firstInputRef }: ContactFormProps) {
         <button
           type="submit"
           disabled={state === "sending" || state === "success"}
-          className="inline-flex min-h-12 cursor-pointer items-center justify-center rounded-lg bg-jac-blue-bright px-10 text-base font-semibold text-white shadow-md transition hover:bg-jac-blue-accent disabled:cursor-not-allowed disabled:opacity-65"
+          className="inline-flex min-h-12 w-full cursor-pointer items-center justify-center rounded-lg bg-jac-blue-bright px-8 text-base font-semibold text-white shadow-md transition hover:bg-jac-blue-accent disabled:cursor-not-allowed disabled:opacity-65 sm:w-auto sm:px-10"
         >
           {state === "sending" ? t("sending") : t("submit")}
         </button>

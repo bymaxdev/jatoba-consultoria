@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Montserrat } from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider } from "next-intl";
@@ -18,6 +18,12 @@ const montserrat = Montserrat({
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
 
 function resolveMetadataBase(): URL {
   const explicit = process.env.NEXT_PUBLIC_SITE_URL?.trim();
@@ -94,7 +100,10 @@ export default async function LocaleLayout({
       className={`${montserrat.variable} scroll-smooth antialiased`}
       suppressHydrationWarning
     >
-      <body className="flex min-h-full flex-col bg-jac-navy-950 font-sans text-jac-silver-100">
+      <body
+        className="flex min-h-full flex-col bg-jac-navy-950 font-sans text-jac-silver-100"
+        suppressHydrationWarning
+      >
         <NextIntlClientProvider messages={messages}>
           <ContactFormProvider>
             <Header />

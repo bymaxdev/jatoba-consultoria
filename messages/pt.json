@@ -4,55 +4,124 @@
     "description": "Soluções práticas em tecnologia e melhoria operacional: manutenção, KPIs, dados, integridade de ativos e desempenho industrial."
   },
   "nav": {
+    "about": "Quem somos",
     "services": "Soluções",
     "why": "Por que a Jatoba",
     "sectors": "Setores",
     "contact": "Contato",
+    "languageHint": "Idioma",
     "openMenu": "Abrir menu",
     "closeMenu": "Fechar menu"
   },
   "hero": {
     "eyebrow": "Consultoria e tecnologia",
     "title": "Da operação de campo à visibilidade da gestão",
-    "subtitle": "Desenvolvemos soluções práticas para ajudar empresas a ganhar controle, visibilidade e performance em áreas críticas — com foco em eficiência, segurança e decisões melhor informadas.",
+    "subtitle": "Desenvolvemos soluções práticas para ajudar empresas a ganhar controle, visibilidade e performance em áreas críticas — com foco em eficiência, segurança e decisões melhor informadas. Atuamos junto a times de operação, manutenção e gestão para traduzir dados e processos em ações que reduzem perdas, fortalecem a confiabilidade e sustentam decisões mais claras no dia a dia industrial.",
     "ctaServices": "Conhecer soluções",
     "ctaContact": "Falar com a Jatoba"
   },
+  "about": {
+    "id": "about",
+    "sectionIndex": "01",
+    "title": "Quem somos",
+    "intro": "Somos uma consultoria focada em tecnologia e melhoria operacional para ambientes industriais exigentes — com presença de campo e visão de gestão.",
+    "paragraphs": [
+      "A Jatoba Consulting and Technology apoia organizações que precisam alinhar a realidade da planta às necessidades da diretoria. Nosso trabalho combina experiência prática em operação e manutenção com métodos de dados, indicadores e governança de processos para reduzir incerteza e acelerar melhorias.",
+      "Entendemos que oportunidades de negócio podem se transformar em risco quando faltam critérios claros, visibilidade confiável e disciplina de execução. Por isso atuamos desde o desenho de fluxos e instrumentação até o acompanhamento de KPIs e a preparação de times para sustentar ganhos ao longo do tempo.",
+      "Montamos frentes de trabalho com perfis compatíveis com cada desafio — da confiabilidade de ativos ao desempenho de suprimentos e pessoas — ajudando sua operação a ganhar previsibilidade e performance sustentável."
+    ]
+  },
+  "testimonial": {
+    "sectionIndex": "04",
+    "title": "Depoimento",
+    "intro": "Relato de uma parceria recente em melhoria operacional e visibilidade da gestão.",
+    "quote": "A Jatoba nos ajudou a organizar a leitura da operação e a priorizar o que realmente impactava disponibilidade e custo. A abordagem é técnica, pragmática e alinhada ao que a liderança precisa decidir.",
+    "author": "Ana Costa",
+    "role": "Gerente de Confiabilidade — Grupo industrial (nome fictício para demonstração)"
+  },
   "solutions": {
     "id": "servicos",
-    "title": "Soluções de tecnologia e melhoria",
-    "intro": "Nosso objetivo é conectar a realidade operacional à visibilidade gerencial, criando soluções que aumentem a eficiência, reduzam perdas e apoiem melhores decisões.",
+    "sectionIndex": "02",
+    "title": "Nossos serviços",
+    "intro": "Consultoria alinhada a gestão de contratos, QHSE, mudança e engenharia — ofertas organizadas por tema, no mesmo espírito de catálogos do segmento.",
+    "accordionLead": "Toque ou clique no título para expandir a lista de tópicos.",
     "groups": [
       {
-        "title": "Operação e manutenção",
+        "title": "Negócios, estratégia e contratos",
         "items": [
-          "Planejamento de manutenção e controle da execução",
-          "Monitoramento de performance de equipamentos",
-          "Rastreamento e análise de tempos não produtivos",
-          "Visão de manutenção, confiabilidade e performance"
+          "Análise, negociação e administração de contratos",
+          "Aditivos e cessões",
+          "Gestão e fiscalização de conformidade contratual",
+          "Apoio e análise de documentação de licitações",
+          "Gestão de riscos",
+          "Treinamento em contratos para equipes de gestão e operação",
+          "Gestão de documentação administrativa e operacional",
+          "Estratégia de negócios",
+          "Elaboração de claims e resolução de disputas",
+          "Desenho e implantação de gestão contratual personalizada",
+          "Análise e apoio a relatórios operacionais (relatórios diários de operação, de perfuração etc.)",
+          "Suporte 24/7 a contratos online — operações offshore e gestores",
+          "Apoio a suprimentos/compras em contratos com fornecedores, prestadores e serviços",
+          "Apoio a documentação de partes interessadas (sumários, relatórios etc.)"
         ]
       },
       {
-        "title": "Dados, visibilidade e decisão",
+        "title": "QHSE",
         "items": [
-          "Aquisição e transmissão de dados",
-          "Dashboards de KPIs operacionais",
-          "Relatórios gerenciais e ferramentas de apoio à decisão",
-          "Padronização de processos e sistemas de controle"
+          "Revisão de procedimentos",
+          "Auditorias internas e pré-auditorias",
+          "Apoio em auditorias externas",
+          "Investigação de incidentes",
+          "Desempenho contratual",
+          "Gestão de riscos",
+          "Relatórios de incidentes",
+          "Análise de processos"
         ]
       },
       {
-        "title": "Ativos, suprimentos e pessoas",
+        "title": "Gestão de mudanças",
         "items": [
-          "Gestão de inventário e sobressalentes",
-          "Integridade de ativos e acompanhamento de inspeções",
-          "Fornecimento de mão de obra especializada"
+          "Apoio durante a implementação da gestão de mudanças",
+          "Análise e desenho de processos atuais (as-is) e futuros (to-be)",
+          "Análise de impacto e otimização",
+          "Revisão de documentação associada a projetos de gestão de mudanças"
+        ]
+      },
+      {
+        "title": "Engenharia",
+        "items": [
+          "Gestão de projetos",
+          "Planejamento estratégico, operacional e tático",
+          "Relatórios técnicos e documentação de responsabilidade técnica",
+          "Levantamentos técnicos e estimativas"
+        ]
+      },
+      {
+        "title": "Indústrias",
+        "items": [
+          "Óleo e gás",
+          "Energia e renováveis",
+          "Engenharia (manutenção e construção)"
+        ]
+      },
+      {
+        "title": "Tipos de contratos",
+        "items": [
+          "Contratos a preço fixo",
+          "Contratos custo mais fee",
+          "Contratos tempo e materiais",
+          "Contratos por preço unitário",
+          "Contratos lump sum",
+          "Contratos de afretamento e serviços",
+          "Contratos unilaterais e bilaterais",
+          "Acordos de confidencialidade (NDA)"
         ]
       }
     ]
   },
   "whyUs": {
     "id": "por-que-jatoba",
+    "sectionIndex": "03",
     "title": "Por que os clientes nos escolhem",
     "intro": "Os clientes trabalham conosco porque combinamos experiência de campo, visão de liderança e entrega técnica com foco em resultado.",
     "items": [
@@ -69,27 +138,71 @@
   },
   "sectors": {
     "id": "setores",
-    "title": "Setores que atendemos",
+    "sectionIndex": "05",
+    "title": "Setores",
+    "intro": "Temas em que apoiamos projetos em óleo, gás e energia — da perfuração à logística, operação e conformidade.",
     "items": [
       {
-        "title": "Óleo e gás",
-        "description": "Apoio a operações onshore e offshore, com foco em confiabilidade, disponibilidade e indicadores operacionais."
+        "title": "Engenharia",
+        "description": "Planejamento técnico, entregas e registros de responsabilidade que sustentam decisões em campo e na gestão.",
+        "image": "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&w=1200&q=80"
       },
       {
-        "title": "Indústrias de processo",
-        "description": "Manutenção, integridade de ativos e governança de dados para plantas que não podem parar."
+        "title": "Construção e manutenção",
+        "description": "Grandes obras e janelas de parada que exigem documentação disciplinada e visibilidade das partes.",
+        "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1200&q=80"
       },
       {
-        "title": "Energia e infraestrutura",
-        "description": "Modelos de performance, padronização e reporting para times de operação e manutenção."
+        "title": "Operacional",
+        "description": "Operação do dia a dia: rotinas, linhas de reporte e melhoria contínua ligadas ao campo.",
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "title": "Gestão de riscos e seguros",
+        "description": "Identificação, mitigação e rastros de evidência que sustentam governança e apólices.",
+        "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "title": "Regulatório e conformidade",
+        "description": "Interfaces com órgãos reguladores, auditorias e controles internos em ambientes altamente regulados.",
+        "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80"
+      },
+      {
+        "title": "Tendências futuras na indústria do petróleo",
+        "description": "Cenários, digitalização e novos modelos de negócio que moldam escolhas de portfólio no longo prazo.",
+        "image": "https://images.unsplash.com/photo-1617791160505-6f00504e3519?auto=format&fit=crop&w=1200&q=80"
       }
     ]
   },
   "contact": {
     "id": "contato",
+    "sectionIndex": "06",
     "title": "Contato",
     "intro": "Envie uma mensagem e retornaremos o mais breve possível.",
-    "emailNote": "Ou escreva diretamente para o e-mail que sua equipe indicar após o go-live.",
+    "emailNote": "Você também pode usar os canais ao lado para falar conosco diretamente.",
+    "direct": {
+      "channelsTitle": "Canais diretos",
+      "emailLabel": "E-mail",
+      "email": "contato@jatobaconsulting.com",
+      "phoneLabel": "Telefone",
+      "phone": "+55 (21) 99999-0000",
+      "locations": [
+        {
+          "title": "Brasil",
+          "lines": [
+            "Rua Exemplo, 100 — complemento",
+            "Bairro — Cidade/Estado",
+            "CEP 00000-000"
+          ]
+        },
+        {
+          "title": "Atendimento regional",
+          "lines": [
+            "Projetos e suporte sob demanda em outras localidades, mediante alinhamento com seu time."
+          ]
+        }
+      ]
+    },
     "ctaOpen": "Fale conosco",
     "ctaClose": "Fechar formulário",
     "fields": {

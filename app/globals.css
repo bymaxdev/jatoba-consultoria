@@ -29,10 +29,11 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
-  min-height: 100vh;
+  min-height: 100dvh;
   background: radial-gradient(
       ellipse 120% 80% at 50% -30%,
       var(--jac-navy-800) 0%,
